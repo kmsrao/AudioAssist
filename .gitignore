@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+backend/.venv/
+.pytest_cache/
+
+# Node / Angular
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+
+# Runtime data (local only)
+data/*
+!data/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Scratch
+scripts/_*
+*.log
